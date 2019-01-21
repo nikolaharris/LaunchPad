@@ -1,0 +1,22 @@
+.hero {
+    background-color: #EFEFF4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-icon {
+    margin-bottom: 2em;
+}
+
+.hero-title {
+    margin-bottom: 1em;
+}

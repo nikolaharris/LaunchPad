@@ -1,0 +1,20 @@
+.dock {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.dock ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.dock ul li a img {
+    margin: 0 1em;;    
+}
