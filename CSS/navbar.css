@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    /* background-color: aqua; */
+    color: #ffffff;
     height: 56px;
     align-items: center;
     justify-content: space-between;
@@ -17,6 +17,10 @@ nav span {
     display: flex;
     align-items: center;
     font-size: 1.25em;
+}
+
+nav span i {
+    margin-right: 10px;
 }
 nav ul {
     list-style-type: none;

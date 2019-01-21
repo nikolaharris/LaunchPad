@@ -1,9 +1,18 @@
 .hero {
-    background-color: #EFEFF4;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
+}
+
+#hero2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-image: linear-gradient(#12151A, #0B0C0F);
 }
 
 .container {
@@ -18,5 +27,12 @@
 }
 
 .hero-title {
-    margin-bottom: 1em;
+    line-height: 2em;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1em;
+    line-height: 1.5em;
 }
